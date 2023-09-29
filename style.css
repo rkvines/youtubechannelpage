@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    font-family: 'Ubuntu';
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.mobile{
+    width: 360px;
+    border: 1px solid black;
+    height: 100vh;
+    margin-left: 38%;
+    background: black;
+    overflow: scroll;
+}
+.mobile::-webkit-scrollbar{
+    display: none;
+}
+.mobile nav{
+    padding: 20px;
+    width: 360px;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    background: black;
+}
+.mobile nav ul{
+    display: flex;
+}
+.mobile nav .logo{
+    font-weight: bold;
+}
+.mobile nav .logo h3{
+    font-size: 20px;
+    color: white;
+}
+.mobile nav ul li {
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+.mobile nav ul li i{
+    color: white;
+}
+
+/* Banner  */
+
+.mobile .banner{
+    margin-top: 73px;
+    width: 100%;
+    height: 150px;
+    background: url('image/8.jpg');
+    background-size: cover;
+}
+.mobile hr{
+    width: 100%;
+    height: 2px;
+    background: rgb(92, 85, 85);
+}
+
+/*  User Description Make This Source   */
+.user{
+    width: 100%;
+    height: 200px;
+    background: black;
+    padding: 5px;
+    align-items: center;
+
+}
+.user img{
+    border-radius: 50%;
+    width: 80px;
+    margin-top: 10px;
+    margin-left: 130px;
+    height: 80px;
+    background-size: auto;
+}
+.user #title{
+    color: white;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.user .about-nav{
+    display: flex;
+}
+.user .about-nav ul{
+    color: white;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: flex;
+}
+.user .about-nav ul li{
+    list-style: none;
+    color: rgb(196, 186, 186);
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.user #descri{
+    color: rgb(196, 186, 186);
+    font-size: 13px;
+    text-align: justify;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+ 
+/*  Tab - Nav Make In this Source  */
+.mobile .tab-nav{
+    overflow-x: scroll;
+    overflow-y: scroll;
+    display: flex;
+    color: white;
+    padding: 5px;
+    margin-top: 8px;
+}
+.mobile .tab-nav::-webkit-scrollbar{
+    display: none;
+}
+.mobile .tab-nav ul{
+    display: flex;
+}
+.mobile .tab-nav ul li{
+    list-style: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.mobile .tab-nav ul::-ms-thumb{
+    user-select: all;
+}
+
+/*  Home Page Source This Code  */
+
+.home{
+    width: 100%;
+    padding: 10px;
+}
+.home .videos{
+    width: 100%;
+    padding: 15px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+.home .videos img{
+    width: 280px;
+    height: 260px;
+    padding: 2px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.home .videos p{
+    color: white;
+    text-align: justify;
+    font-size: 15px;
+}
+.home .videos #view-date{
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(196, 186, 186);
+}
+.home .videos i{
+    margin-left: 40%;
+    font-size: 20px;
+    font-weight: 500;
+    visibility: hidden;
+    color: white;
+}
+.home .videos:hover i{
+    visibility: visible;
+}
+.home .videos #channel-name{
+    font-size: 15px;
+    padding: 2px;
+    color: rgb(196, 186, 186);
+}
+
+
+/* Media Screen Make For Responsive */
+@media (max-width: 360px){
+    .mobile{
+        margin-left: 0;
+    }
+    body{
+        background: black;
+    }
+}
+@media (max-width: 314){
+    .mobile{
+        margin-left: 0;
+        background: black;
+    }
+}
+@media (max-width: 300px){
+    .mobile{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 270px){
+    .mobile{
+        margin-left: 0;
+    }
+}
+
+
