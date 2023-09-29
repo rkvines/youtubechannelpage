@@ -187,6 +187,103 @@ body{
     color: rgb(196, 186, 186);
 }
 
+/* About Section Make Me This Source */
+.about{
+    color: white;
+    padding: 15px;
+    display: none;
+}
+.about p{
+    font-size: 18px;
+    color: rgb(196, 186, 186);
+    text-align: justify;
+    padding: 1.5px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.about p a{
+    color: blue;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 2px;
+    margin-top: 10px;
+}
+.about p a:hover{
+    text-decoration: underline;
+}
+
+/* Video playlist */
+
+.video-list{
+    width: 100%;
+    height: 800px;
+    padding: 20px;
+    display: none;
+}
+.video-list iframe{
+    width: 320px;
+    height: 320px;
+    margin-top: 20px;
+}
+
+/* shorts page source design */
+.shorts{
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    display: none;
+}
+
+.shorts p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+
+
+/* Comminity post's page source design */
+.com-post{
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    display: none;
+}
+
+.com-post p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* Comminity post's page source design */
+.playlist{
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    display: none;
+}
+
+.playlist p{
+    color: red;
+    font-size: 20px;
+    text-align: justify;
+}
+
+/* channel's page source design */
+.chan{
+    width: 100%;
+    height: 800px;
+    padding: 10px;
+    display: none;
+}
+
+.chan p{
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+
 
 /* Media Screen Make For Responsive */
 @media (max-width: 360px){
